@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.container {
+  width: 1512px;
+  background: linear-gradient(136.52deg, #CFD3E3 80.53%, #71B34C 80.53%);
+  margin: 0 auto;
+  padding: 24px 87px;
+  font-family: "Rubik", sans-serif;
+}
+
+.div {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.div h1 {
+  font-weight: 500;
+  font-size: 48px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 16px;
+
+}
+
+.btn {
+  width: 144px;
+  height: 44px;
+  border-radius: 8px;
+  background: #227EDA;
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.home {
+  margin-top: 34px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 24px 32px;
+  justify-content: center;
+  margin-top: 32px;
+}
+
