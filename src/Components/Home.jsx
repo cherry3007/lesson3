@@ -35,7 +35,7 @@ const books = [
   {
     title: "O‘tkan Kunlar",
     author: "Abdulla Qodiriy",
-    description: "Roman XIX asr voqealarini o‘z ichiga olgan. Murakkab tarixiy hodisalar romaning bosh qahramonlari Otabek va Kumushbibiing fojeaviy sevgi qissasi atrofida ifodalangan",
+    description: "Roman XIX aasr voqealarini o‘z ichiga olgan. Murakkab tarixiy hodisalar romaning bosh qahramonlari Otabek va Kumushbibiing fojeaviy sevgi qissasi atrofida ifodalangan",
     image: "img/otkan-kunlar.jpg"
   }
 ];
