@@ -13,7 +13,7 @@ const Modal = ({ onClose, onAdd }) => {
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-    setError(""); // убираем ошибку при изменении поля
+    setError("");
   };
 
   const handleSubmit = () => {
@@ -22,7 +22,14 @@ const Modal = ({ onClose, onAdd }) => {
       return;
     }
 
-    onAdd(form); // добавление книги
+    onAdd({
+      title: form.name,
+      author: form.author,
+      image: form.img,
+      description: form.desc,
+    });
+
+    onClose(); 
   };
 
   return (
